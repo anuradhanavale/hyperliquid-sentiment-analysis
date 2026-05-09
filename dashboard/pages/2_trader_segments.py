@@ -12,7 +12,7 @@ def load_data():
     return pd.read_parquet(DAILY_METRICS_PATH)
 
 st.set_page_config(page_title="Trader Segments", layout="wide")
-st.title("👥 Trader Segments – Performance Comparison")
+st.title("Trader Segments – Performance Comparison")
 
 df = load_data()
 

@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 DAILY_METRICS_PATH = PROJECT_ROOT / "data" / "processed" / "daily_metrics.parquet"
 
 st.set_page_config(layout="wide")
-st.title("📊 Hyperliquid Sentiment & Trader Behavior Dashboard")
+st.title("Hyperliquid Sentiment & Trader Behavior Dashboard")
 
 @st.cache_data
 def load_data():

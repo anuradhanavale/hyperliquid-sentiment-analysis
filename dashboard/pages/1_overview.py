@@ -12,7 +12,7 @@ def load_data():
     return pd.read_parquet(DAILY_METRICS_PATH)
 
 st.set_page_config(page_title="Overview", layout="wide")
-st.title("📈 Sentiment & Trader Behavior – Overview")
+st.title("Sentiment & Trader Behavior – Overview")
 
 df = load_data()
 df['date'] = pd.to_datetime(df['date'])

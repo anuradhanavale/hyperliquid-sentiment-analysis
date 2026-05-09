@@ -9,7 +9,7 @@ MODEL_PATH = PROJECT_ROOT / "models" / "pnl_predictor.pkl"
 DAILY_METRICS_PATH = PROJECT_ROOT / "data" / "processed" / "daily_metrics.parquet"
 
 st.set_page_config(page_title="Predictions", layout="wide")
-st.title("🔮 Next‑Day PnL Predictions (Bonus)")
+st.title("Next‑Day PnL Predictions")
 
 # Load data
 df = pd.read_parquet(DAILY_METRICS_PATH)
