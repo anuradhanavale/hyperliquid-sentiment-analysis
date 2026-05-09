@@ -1,0 +1,13 @@
+classification,leverage_segment,daily_pnl
+Extreme Greed,Low (0-5x),35393.0983548
+Extreme Greed,Medium (5-10x),
+Extreme Greed,High (10x+),
+Fear,Low (0-5x),118800.6059334737
+Fear,Medium (5-10x),
+Fear,High (10x+),
+Greed,Low (0-5x),99675.5167305
+Greed,Medium (5-10x),
+Greed,High (10x+),
+Neutral,Low (0-5x),19842.79725975
+Neutral,Medium (5-10x),
+Neutral,High (10x+),
